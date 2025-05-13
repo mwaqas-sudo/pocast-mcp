@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "podcast-generator": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "E:\\notebook_llm_poc\\podcast_mcp",
+        "run",
+        "podcast_server.py"
+      ],
+      "env": {
+        "OPENAI_API_KEY": "your-openai-api-key-here",
+        "OPENAI_TTS_MODEL": "gpt-4o-mini-tts",
+        "OPENAI_GPT_MODEL": "gpt-4.1",
+        "SPEAKER1_NAME": "Michael",
+        "SPEAKER2_NAME": "Sarah",
+        "SPEAKER1_VOICE": "onyx",
+        "SPEAKER2_VOICE": "nova",
+        "DEFAULT_PODCAST_LENGTH": "10"
+      }
+    }
+  }
+}
