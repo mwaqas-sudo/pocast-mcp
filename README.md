@@ -183,6 +183,9 @@ podcast_mcp/
 ├── examples/             # Example configurations
 │   ├── sample_dialogue.txt
 │   └── config_examples.py
+├── main.py
+├── pyproject.toml
+├── claude_desktop_config.json
 
 ```
 
