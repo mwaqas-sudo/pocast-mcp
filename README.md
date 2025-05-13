@@ -38,7 +38,7 @@
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/mwaqas-sudo/podcast_mcp.git
+   git clone https://github.com/mwaqas-sudo/podcast-mcp.git
    cd podcast_mcp
    ```
 
